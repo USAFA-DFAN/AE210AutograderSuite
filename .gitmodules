@@ -1,16 +1,16 @@
 [submodule "CommonAssets"]
 	path = CommonAssets
-	url = https://github.com/dellolmstead/AE210CommonAssets.git
+	url = https://github.com/dellolmstead-eng/AE210CommonAssets.git
 	branch = main
 [submodule "FinalExamAutograder"]
 	path = FinalExamAutograder
-	url = https://github.com/dellolmstead/AE210FinalExamGrader.git
+	url = https://github.com/dellolmstead-eng/AE210FinalExamGrader.git
 	branch = main
 [submodule "FinalProjectAutograder"]
 	path = FinalProjectAutograder
-	url = https://github.com/dellolmstead/AE210FinalProjectGrader.git
+	url = https://github.com/dellolmstead-eng/AE210FinalProjectGrader
 	branch = main
 [submodule "GE3Autograder"]
 	path = GE3Autograder
-	url = https://github.com/dellolmstead/AE210GE3Webgrader.git
+	url = https://github.com/dellolmstead-eng/AE210GE3Webgrader.git
 	branch = main
