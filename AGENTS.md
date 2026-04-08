@@ -27,3 +27,7 @@ Edit submodules directly, then update the suite submodule pointers.
 ## Notes
 - Avoid editing any duplicate copies outside `AutograderSuite/`.
 - If MATLAB and web logic disagree, MATLAB is the reference unless told otherwise.
+- Final Project, GE3, and Final Exam each own their own grading values, thresholds, objectives, and point maps.
+- Shared helper logic is allowed, but assignment-specific constants must stay local to that assignment repo.
+- Do not copy Final Exam values into Final Project or GE3 by assumption, and do not copy Final Project values into Final Exam by assumption.
+- When updating rubric values for one assignment, update only that assignment unless an explicit rubric change says otherwise.
