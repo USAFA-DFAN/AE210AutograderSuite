@@ -8,7 +8,7 @@ Use this list when copying approved changes from this working folder into `Autog
 - `FinalExamAutograder/docs/engine/messages.js`
 - `FinalExamAutograder/docs/engine/rules.js`
 
-### Final Project
+### Final Aircraft
 - `FinalProjectAutograder/Final_project_autograde_Olmstead_Fall_2025_v02.m`
 - `FinalProjectAutograder/docs/engine/grade.js`
 - `FinalProjectAutograder/docs/engine/messages.js`
@@ -22,7 +22,7 @@ Use this list when copying approved changes from this working folder into `Autog
 Notes:
 - `_git` contains extra `textout_2026-04-07_*.txt` files that should not be copied back into the working folder.
 
-### GE3
+### Draft Aircraft
 - `GE3Autograder/GE3_autograde_Olmstead_Fall_2025_v2.m`
 - `GE3Autograder/docs/engine/messages.js`
 - `GE3Autograder/docs/engine/rules.js`

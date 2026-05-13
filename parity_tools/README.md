@@ -6,10 +6,10 @@ Why these stay at suite level:
 - They are support tooling, not assignment grading logic.
 
 Current tools:
-- `ge3_batch_parity.mjs`: batch GE3 web-vs-MATLAB parity runner.
-- `fp_batch_parity.mjs`: batch Final Project web-vs-MATLAB parity runner.
+- `ge3_batch_parity.mjs`: batch Draft Aircraft web-vs-MATLAB parity runner.
+- `fp_batch_parity.mjs`: batch Final Aircraft web-vs-MATLAB parity runner.
 - `jet11_xlsx_loader.py`: general workbook-to-JSON loader for JET11-style sheets.
-- `fp_xlsx_xml_loader.py`: Final Project workbook loader.
+- `fp_xlsx_xml_loader.py`: Final Aircraft workbook loader.
 
 Path behavior:
 - Scripts resolve the suite root relative to this directory.

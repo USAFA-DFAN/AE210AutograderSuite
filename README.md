@@ -3,9 +3,9 @@
 This repo tracks the individual AE210 autograder projects as git submodules.
 
 ## Included submodules
-- GE3Autograder
+- Draft Aircraft autograder
 - FinalExamAutograder
-- FinalProjectAutograder
+- Final Aircraft autograder
 
 ## Usage
 - Clone and pull modules: `git clone <this-repo> && cd <repo> && git submodule update --init --recursive`

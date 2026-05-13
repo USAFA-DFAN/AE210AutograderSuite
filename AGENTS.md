@@ -5,8 +5,8 @@ This is the AE210 Autograder Suite meta-repo. It pins the individual autograder 
 Edit submodules directly, then update the suite submodule pointers.
 
 ## Source Of Truth
-- GE3: `GE3Autograder/`
-- Final Project: `FinalProjectAutograder/`
+- Draft Aircraft: `GE3Autograder/`
+- Final Aircraft: `FinalProjectAutograder/`
 - Final Exam: `FinalExamAutograder/`
 
 ## Workflow
@@ -16,17 +16,17 @@ Edit submodules directly, then update the suite submodule pointers.
 4) Push this suite repo.
 
 ## Key Files
-- GE3 MATLAB: `GE3Autograder/GE3_autograde_Olmstead_Fall_2025_v2.m`
-- GE3 Web: `GE3Autograder/docs/engine/`
-- Final Project MATLAB: `FinalProjectAutograder/Final_project_autograde_Olmstead_Fall_2025_v02.m`
-- Final Project Web: `FinalProjectAutograder/docs/engine/`
+- Draft Aircraft MATLAB: `GE3Autograder/GE3_autograde_Olmstead_Fall_2025_v2.m`
+- Draft Aircraft Web: `GE3Autograder/docs/engine/`
+- Final Aircraft MATLAB: `FinalProjectAutograder/Final_project_autograde_Olmstead_Fall_2025_v02.m`
+- Final Aircraft Web: `FinalProjectAutograder/docs/engine/`
 - Final Exam MATLAB: `FinalExamAutograder/Final_Exam_autograde_Olmstead_Fall_2025_v01.m`
 - Final Exam Web: `FinalExamAutograder/docs/engine/`
 
 ## Notes
 - Avoid editing duplicate nested suite copies such as `AutograderSuite/`.
 - If MATLAB and web logic disagree, MATLAB is the reference unless told otherwise.
-- Final Project, GE3, and Final Exam each own their own grading values, thresholds, objectives, and point maps.
+- Final Aircraft, Draft Aircraft, and Final Exam each own their own grading values, thresholds, objectives, and point maps.
 - Shared helper logic is allowed, but assignment-specific constants must stay local to that assignment repo.
-- Do not copy Final Exam values into Final Project or GE3 by assumption, and do not copy Final Project values into Final Exam by assumption.
+- Do not copy Final Exam values into Final Aircraft or Draft Aircraft by assumption, and do not copy Final Aircraft values into Final Exam by assumption.
 - When updating rubric values for one assignment, update only that assignment unless an explicit rubric change says otherwise.
