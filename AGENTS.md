@@ -8,7 +8,6 @@ Edit submodules directly, then update the suite submodule pointers.
 - GE3: `GE3Autograder/`
 - Final Project: `FinalProjectAutograder/`
 - Final Exam: `FinalExamAutograder/`
-- Shared assets: `CommonAssets/`
 
 ## Workflow
 1) Make changes inside the submodule repo.
@@ -25,7 +24,7 @@ Edit submodules directly, then update the suite submodule pointers.
 - Final Exam Web: `FinalExamAutograder/docs/engine/`
 
 ## Notes
-- Avoid editing any duplicate copies outside `AutograderSuite/`.
+- Avoid editing duplicate nested suite copies such as `AutograderSuite/`.
 - If MATLAB and web logic disagree, MATLAB is the reference unless told otherwise.
 - Final Project, GE3, and Final Exam each own their own grading values, thresholds, objectives, and point maps.
 - Shared helper logic is allowed, but assignment-specific constants must stay local to that assignment repo.

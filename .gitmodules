@@ -1,7 +1,3 @@
-[submodule "CommonAssets"]
-	path = CommonAssets
-	url = https://github.com/dellolmstead-eng/AE210CommonAssets.git
-	branch = main
 [submodule "FinalExamAutograder"]
 	path = FinalExamAutograder
 	url = https://github.com/dellolmstead-eng/AE210FinalExamGrader.git
