@@ -16,9 +16,9 @@ Edit submodules directly, then update the suite submodule pointers.
 4) Push this suite repo.
 
 ## Key Files
-- Draft Aircraft MATLAB: `GE3Autograder/GE3_autograde_Olmstead_Fall_2025_v2.m`
+- Draft Aircraft MATLAB: `GE3Autograder/Draft_aircraft_autograde_Olmstead_Fall_2025_v2.m`
 - Draft Aircraft Web: `GE3Autograder/docs/engine/`
-- Final Aircraft MATLAB: `FinalProjectAutograder/Final_project_autograde_Olmstead_Fall_2025_v02.m`
+- Final Aircraft MATLAB: `FinalProjectAutograder/Final_aircraft_autograde_Olmstead_Fall_2025_v02.m`
 - Final Aircraft Web: `FinalProjectAutograder/docs/engine/`
 - Final Exam MATLAB: `FinalExamAutograder/Final_Exam_autograde_Olmstead_Fall_2025_v01.m`
 - Final Exam Web: `FinalExamAutograder/docs/engine/`
