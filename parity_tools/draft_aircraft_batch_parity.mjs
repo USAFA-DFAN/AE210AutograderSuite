@@ -5,15 +5,15 @@ import { fileURLToPath, pathToFileURL } from "url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, "..");
-const graderPath = path.join(repoRoot, "GE3Autograder/docs/engine/grade.js");
-const rulesPath = path.join(repoRoot, "GE3Autograder/docs/engine/rules.js");
+const graderPath = path.join(repoRoot, "DraftAircraftAutograder/docs/engine/grade.js");
+const rulesPath = path.join(repoRoot, "DraftAircraftAutograder/docs/engine/rules.js");
 const baselinePath =
   process.argv[4] ||
-  path.join(repoRoot, "GE3Autograder/docs/testdata/matlab_expected.json");
+  path.join(repoRoot, "DraftAircraftAutograder/docs/testdata/matlab_expected.json");
 const parserPath = path.join(scriptDir, "jet11_xlsx_loader.py");
 const pythonPath = process.env.PARITY_PYTHON || "/home/dellolmstead/pyproj/.venv/bin/python";
-const workbookDir = process.argv[2] || "/mnt/c/AE210AutograderFiles/FA25FinalProject";
-const reportPath = process.argv[3] || path.resolve(process.cwd(), "ge3_parity_report.json");
+const workbookDir = process.argv[2] || "/mnt/c/AE210AutograderFiles/FA26DraftAircraft";
+const reportPath = process.argv[3] || path.resolve(process.cwd(), "draft_aircraft_parity_report.json");
 const caseLimit = Number.parseInt(process.argv[5] || "", 10);
 
 if (!globalThis.XLSX) {
@@ -58,7 +58,7 @@ function normalizeLog(log, fileName = "") {
       const lower = line.toLowerCase();
       if (lower.endsWith(".xlsm")) return false;
       if (lowerFile && lower.includes(lowerFile)) return false;
-      if (lower.startsWith("ge 3_") || lower.startsWith("ge 5_")) return false;
+      if (lower.startsWith("draft aircraft_")) return false;
       return true;
     });
   while (cleaned.length > 0 && cleaned[cleaned.length - 1] === "") cleaned.pop();

@@ -7,12 +7,12 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, "..");
 const siblingGitRoot = `${repoRoot}_git`;
 const baselineRoot = process.env.PARITY_BASELINE_ROOT || (fs.existsSync(siblingGitRoot) ? siblingGitRoot : repoRoot);
-const graderPath = path.join(repoRoot, "FinalProjectAutograder/docs/engine/grade.js");
-const baselinePath = path.join(baselineRoot, "FinalProjectAutograder/docs/testdata/matlab_expected.json");
-const parserPath = path.join(scriptDir, "fp_xlsx_xml_loader.py");
+const graderPath = path.join(repoRoot, "FinalAircraftAutograder/docs/engine/grade.js");
+const baselinePath = path.join(baselineRoot, "FinalAircraftAutograder/docs/testdata/matlab_expected.json");
+const parserPath = path.join(scriptDir, "final_aircraft_xlsx_xml_loader.py");
 const pythonPath = process.env.PARITY_PYTHON || "/home/dellolmstead/pyproj/.venv/bin/python";
-const workbookDir = process.argv[2] || "/mnt/c/AE210AutograderFiles/FA25FinalProject";
-const reportPath = process.argv[3] || path.resolve(process.cwd(), "fp_parity_report.json");
+const workbookDir = process.argv[2] || "/mnt/c/AE210AutograderFiles/FA26FinalAircraft";
+const reportPath = process.argv[3] || path.resolve(process.cwd(), "final_aircraft_parity_report.json");
 const caseLimit = Number.parseInt(process.argv[4] || "", 10);
 
 if (!globalThis.XLSX) {

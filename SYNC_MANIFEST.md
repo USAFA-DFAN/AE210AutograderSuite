@@ -9,32 +9,32 @@ Use this list when copying approved changes from this working folder into `Autog
 - `FinalExamAutograder/docs/engine/rules.js`
 
 ### Final Aircraft
-- `FinalProjectAutograder/Final_aircraft_autograde_Olmstead_Fall_2025_v02.m`
-- `FinalProjectAutograder/docs/engine/grade.js`
-- `FinalProjectAutograder/docs/engine/messages.js`
-- `FinalProjectAutograder/docs/engine/pchip.js`
-- `FinalProjectAutograder/docs/engine/rules.js`
-- `FinalProjectAutograder/docs/engine/rules/stealth.js`
-- `FinalProjectAutograder/docs/index.html`
-- `FinalProjectAutograder/docs/test_runner.html`
-- `FinalProjectAutograder/docs/test_runner.js`
+- `FinalAircraftAutograder/Final_aircraft_autograde_Olmstead_Fall_2025_v02.m`
+- `FinalAircraftAutograder/docs/engine/grade.js`
+- `FinalAircraftAutograder/docs/engine/messages.js`
+- `FinalAircraftAutograder/docs/engine/pchip.js`
+- `FinalAircraftAutograder/docs/engine/rules.js`
+- `FinalAircraftAutograder/docs/engine/rules/stealth.js`
+- `FinalAircraftAutograder/docs/index.html`
+- `FinalAircraftAutograder/docs/test_runner.html`
+- `FinalAircraftAutograder/docs/test_runner.js`
 
 Notes:
 - `_git` contains extra `textout_2026-04-07_*.txt` files that should not be copied back into the working folder.
 
 ### Draft Aircraft
-- `GE3Autograder/Draft_aircraft_autograde_Olmstead_Fall_2025_v2.m`
-- `GE3Autograder/docs/engine/messages.js`
-- `GE3Autograder/docs/engine/rules.js`
-- `GE3Autograder/docs/engine/rules/aero.js`
-- `GE3Autograder/docs/engine/rules/attachments.js`
-- `GE3Autograder/docs/engine/rules/constraints.js`
-- `GE3Autograder/docs/engine/rules/mission.js`
+- `DraftAircraftAutograder/Draft_aircraft_autograde_Olmstead_Fall_2025_v2.m`
+- `DraftAircraftAutograder/docs/engine/messages.js`
+- `DraftAircraftAutograder/docs/engine/rules.js`
+- `DraftAircraftAutograder/docs/engine/rules/aero.js`
+- `DraftAircraftAutograder/docs/engine/rules/attachments.js`
+- `DraftAircraftAutograder/docs/engine/rules/constraints.js`
+- `DraftAircraftAutograder/docs/engine/rules/mission.js`
 
 ### Suite Tools
-- `parity_tools/fp_batch_parity.mjs`
-- `parity_tools/fp_xlsx_xml_loader.py`
-- `parity_tools/ge3_batch_parity.mjs`
+- `parity_tools/final_aircraft_batch_parity.mjs`
+- `parity_tools/final_aircraft_xlsx_xml_loader.py`
+- `parity_tools/draft_aircraft_batch_parity.mjs`
 - `parity_tools/jet11_xlsx_loader.py`
 - `parity_tools/README.md`
 

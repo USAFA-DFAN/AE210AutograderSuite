@@ -2,11 +2,11 @@
 	path = FinalExamAutograder
 	url = https://github.com/dellolmstead-eng/AE210FinalExamGrader.git
 	branch = main
-[submodule "FinalProjectAutograder"]
-	path = FinalProjectAutograder
+[submodule "FinalAircraftAutograder"]
+	path = FinalAircraftAutograder
 	url = https://github.com/dellolmstead-eng/AE210FinalProjectGrader
 	branch = main
-[submodule "GE3Autograder"]
-	path = GE3Autograder
+[submodule "DraftAircraftAutograder"]
+	path = DraftAircraftAutograder
 	url = https://github.com/dellolmstead-eng/AE210GE2Webgrader.git
 	branch = main

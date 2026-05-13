@@ -35,7 +35,7 @@ def extract_sheet_matrix(ws):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: fp_xlsx_xml_loader.py <workbook>", file=sys.stderr)
+        print("Usage: final_aircraft_xlsx_xml_loader.py <workbook>", file=sys.stderr)
         sys.exit(2)
 
     workbook_path = Path(sys.argv[1])
